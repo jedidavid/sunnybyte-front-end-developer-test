@@ -1,15 +1,42 @@
-# SunnyByte Front-End Developer Test
+# HTML + TailwindCSS Boilerplate
 
-Hello prospective team member!  We would like to see your HTML/CSS chops.  We have provided a PSD with a simple designed web page.  The layout is similar to the sites we work on regularly.  Your mission is to extract any assets you need from the PSD and build the page using **HTML** and your favorite **CSS Framework**.  The pages must be responsive and look good on desktop, tablets, and mobile devices.  Since there is no mobile design provided, use your intuition and do what you think will look best on small screens.  
- 
- **Bonus points for interactive components.** 
- 
- Some optional components can be:   
- - A hamburger menu for mobile devices  
- - A carousel for background images on the hero section  
- or  
- - An image carousel on one of the blog posts.
- 
- We would like to see SEO friendly markup, and file sizes that have site performance in mind.
- 
- Good Luck!
+> This is a boilerplate using tailwindcss
+
+## Installation
+
+### Clone
+
+- Clone this repo to your local machine
+
+### Setup
+
+> install packages
+
+```shell
+yarn or npm install
+```
+
+> to use hot reloading install live-server
+
+```shell
+npm install -g live-server
+```
+
+> starting dev server
+
+```shell
+yarn start or npm start
+live-server --no-css-inject src
+```
+
+> build (this purge the unused css and minify the css file)
+
+```shell
+yarn build or npm build
+```
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**

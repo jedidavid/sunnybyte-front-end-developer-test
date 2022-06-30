@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply font-body;
+}
+
+.bg-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/header-bg.jpg");
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply text-namibia !important;
+}
